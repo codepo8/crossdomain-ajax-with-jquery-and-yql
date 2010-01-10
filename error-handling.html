@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+  <title>Ajax with jQuery - adding error handling</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+<div id="doc" class="yui-t7">
+  <div id="hd" role="banner"><h1>Ajax with jQuery - adding error handling</h1></div>
+  <div id="bd" role="main">
+    <h2>Demo</h2>
+    <ul>
+      <li><a href="ajaxcontent.html" class="ajaxtrigger">Load Ajax Content</a></li>
+      <li><a href="http://developer.yaho.com" class="ajaxtrigger">see developer.yahoo.com</a></li>
+      <li><a href="borked" class="ajaxtrigger">this is a broken link</a></li>
+      <li><a href="http://borked" class="ajaxtrigger">this is an external broken link</a></li>
+      <li><a href="waiting-for-godot.php" class="ajaxtrigger">this times out</a></li>
+    </ul>
+    <div id="target"></div>
+    <h2>Source Code</h2>
+    <div id="code"></div>
+    <ul id="nav"><li><a href="index.html">back home</a></li></ul>
+  </div>
+  <div id="ft" role="contentinfo"><p>Written by <a href="http://wait-till-i.com/index.php">Christian Heilmann</a>.</p></div>
+</div>
+<script src="http://code.jquery.com/jquery-latest.pack.js"></script>
+<script src="http://dev.jquery.com/view/tags/ui/latest/ui/effects.core.js"></script>
+<script src="http://dev.jquery.com/view/tags/ui/latest/ui/effects.highlight.js"></script>
+<script src="code.js"></script>
+<script src="error-handling.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{border:2em solid #fff;font-family:futura,verdana,sans-serif;}
+a{color:#369}
+ul{margin:1em}
+h1{font-size:25px;color:#036;}
+h2{font-size:18px;margin:10px 0;color:#69c;}
+#target,#code{
+border:1px solid #999;
+background:#eee;
+padding:1em;
+-moz-border-radius:5px;
+border-radius:5px;
+-webkit-border-radius:5px;
+}
+#target{
+  overflow:auto;
+  max-height:200px;
+}
+#ft{font-size:12px;text-align:right;}
+.ajaxtrigger span{font-weight:bold;color:#000}
+.ajaxtrigger span.error{color:#c00}
