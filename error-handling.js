@@ -7,9 +7,9 @@ $(document).ready(function(){
     if(!trigger.hasClass('loaded')){
       trigger.append('<span></span>');
       trigger.addClass('loaded');
-      var msg = trigger.find('span::last');
+      var msg = trigger.find('span').last();
     } else {
-      var msg = trigger.find('span::last');
+      var msg = trigger.find('span').last();
     }
     doAjax(url,msg,container);
     return false;

@@ -1,7 +1,8 @@
 $(document).ready(function(){
-  var url = $('script::last').attr('src');
+  var url = $('script').last().attr('src');
   $.get(url,
     function(code){
+      console.log(code);
       code=code.replace(/&/mg,'&#38;');
       code=code.replace(/</mg,'&#60;');
       code=code.replace(/>/mg,'&#62;');
